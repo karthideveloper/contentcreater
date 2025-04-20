@@ -28,8 +28,8 @@ A customizable code editor built in React using CodeMirror, designed to help you
 🚀 Setup Instructions
 
 Clone the repo:
-git clone https://github.com/your-username/code-snippet-editor.git
-cd code-snippet-editor
+git clone https://github.com/karthideveloper/contentcreater.git
+cd contentcreater
 
 Install dependencies:
 npm install
