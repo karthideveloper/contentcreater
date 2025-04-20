@@ -1,70 +1,57 @@
-# Getting Started with Create React App
+🎨 Code Snippet Editor with Export
+A customizable code editor built in React using CodeMirror, designed to help you write, style, and export code snippets as beautiful PNG images — perfect for social media posts, documentation, or presentations.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+✨ Features
+🧠 Multiple Language Support (JavaScript, Python, HTML, CSS)
 
-## Available Scripts
+🎨 Customizable Themes with background colors
 
-In the project directory, you can run:
+🖋️ Font & Size Selection
 
-### `npm start`
+🌐 Live Syntax Highlighting
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+📸 Export as PNG with styled background
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+💡 Responsive Layout with 40% width, centered view
 
-### `npm test`
+🛠 **Technologies Used**
+⚛️ React
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+🖍️ @uiw/react-codemirror
 
-### `npm run build`
+🌈 CodeMirror Themes (Dracula, GitHub Dark, Tokyo Night, etc.)
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+🖼️ html-to-image for export
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+🎨 Custom CSS styling
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+🚀 Setup Instructions
 
-### `npm run eject`
+Clone the repo:
+git clone https://github.com/karthideveloper/contentcreater.git
+cd contentcreater
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+**Install dependencies:**
+npm install
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+**Start the development server:**
+npm start
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+**📦 Dependencies to Install**
+npm install @uiw/react-codemirror @codemirror/lang-javascript @codemirror/lang-python @codemirror/lang-html @codemirror/lang-css
+npm install html-to-image
+npm install @uiw/codemirror-theme-dracula @uiw/codemirror-theme-github @uiw/codemirror-theme-tokyo-night @uiw/codemirror-theme-aura @uiw/codemirror-theme-vscode
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+**📷 Example Output**
 
-## Learn More
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+**📁 Folder Structure**
+📦contentcreater
+ ┣ 📜 App.jsx
+ ┣ 📜 index.js
+ ┣ 📜 styles.css
+ ┣ 📜 ...
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+🙌 **Contribution**
+Feel free to open issues, suggest features, or fork and submit pull requests!
 
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
