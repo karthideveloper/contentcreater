@@ -14,7 +14,7 @@ A customizable code editor built in React using CodeMirror, designed to help you
 
 💡 Responsive Layout with 40% width, centered view
 
-🛠 Technologies Used
+🛠 **Technologies Used**
 ⚛️ React
 
 🖍️ @uiw/react-codemirror
@@ -31,27 +31,27 @@ Clone the repo:
 git clone https://github.com/karthideveloper/contentcreater.git
 cd contentcreater
 
-Install dependencies:
+**Install dependencies:**
 npm install
 
-Start the development server:
+**Start the development server:**
 npm start
 
-📦 Dependencies to Install
+**📦 Dependencies to Install**
 npm install @uiw/react-codemirror @codemirror/lang-javascript @codemirror/lang-python @codemirror/lang-html @codemirror/lang-css
 npm install html-to-image
 npm install @uiw/codemirror-theme-dracula @uiw/codemirror-theme-github @uiw/codemirror-theme-tokyo-night @uiw/codemirror-theme-aura @uiw/codemirror-theme-vscode
 
-📷 Example Output
+**📷 Example Output**
 
 
-📁 Folder Structure
-📦code-snippet-editor
+**📁 Folder Structure**
+📦contentcreater
  ┣ 📜 App.jsx
  ┣ 📜 index.js
  ┣ 📜 styles.css
  ┣ 📜 ...
 
-🙌 Contribution
+🙌 **Contribution**
 Feel free to open issues, suggest features, or fork and submit pull requests!
 
